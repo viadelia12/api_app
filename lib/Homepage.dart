@@ -43,10 +43,10 @@ class _HomepageState extends State<Homepage> {
             return ListView.separated(
               itemBuilder: (context, index){
                 return Container(
-                  color: Colors.white,
                   child: Text(data[index].key,
                     style: TextStyle(
                       fontFamily: 'SimplyRounded',
+                      fontSize: 20,
                     ),
                   ),
                 );
